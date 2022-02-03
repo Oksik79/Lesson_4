@@ -1,0 +1,121 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Dongle:300,400,700&display=swap);
+
+@font-face {
+	font-family: "EuclidCircularA";
+	src: url("../fonts/EuclidCircularA-LightItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-LightItalic.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "EuclidCircularA";
+	src: url("../fonts/EuclidCircularA-BoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body {
+font-size: 21px;
+font-family: "Dongle", serif;
+font-weight: 400;
+font-style: normal ;
+
+}
+
+
+.menu {
+	color: crimson;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: 600;
+	font-style: normal;
+	
+}
+
+
+[target="_blank"] {
+	color: darkorchid;
+	font-size: 15px;
+	font-family: cursive;
+	font-style: oblique;
+}
+
+h1{
+	color: rgb(48, 211, 7);
+	font-size: 40px;
+	font-family: fantasy;
+	font-style: normal;
+	text-align: center;
+}
+
+h3 {
+color: blue;
+font-size: 40px;
+font-family: "EuclidCircularA", sans-serif;
+font-style: italic ;
+font-weight: 600;
+text-shadow: 6px 6px 15px rgb(241, 4, 75);
+}
+
+.centr {
+	text-align: center;
+}
+
+.zamok {
+	font-family: "EuclidCircularA", sans-serif;
+	font-weight: 700;
+	word-spacing: 50px;
+}
+
+[title="Остров мертвых"] {
+	font-size: 30px;
+	white-space: nowrap;
+}
+
+.sprava {
+	text-align: right;
+}
+
+
+.look {
+	text-decoration: line-through ;
+}
+
+.brus {
+	text-decoration: underline;
+}
+
+.red {
+	font-size: 30px;
+	color: red;
+	font-weight: 900;
+}
+
+
+.history {
+	color: rgb(50, 216, 50);
+}
+
+.text + p {
+	color: darkturquoise;
+}
+
+.child {
+	color: gold;
+	text-transform: uppercase;
+	
+}
+
+
+
+.losyash {
+	color: deeppink;
+	text-indent: 30px ;
+	line-height: 2;
+}
+
